@@ -11,6 +11,7 @@ background-color: #dddddd42;
 }
 
 
+
 .item{
     display:flex;
 
@@ -85,7 +86,8 @@ video {
 text-align: center;
 }
 
+.div6{
 
-.container2{
-    text-align: center;
+text-align: center;
+align-items: center;
 }
