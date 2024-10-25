@@ -20,6 +20,7 @@ background-color: #dddddd42;
     flex-direction: row;
     flex-direction: row-reverse;
     margin-top: 10px;
+    margin: 100px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +83,41 @@ video {
 
 .container{
 text-align: center;
+}
+
+#table-and-img {
+    display: flex;
+    margin: 0 auto;
+}
+table{
+    border-spacing: 0.5;
+    width: 50%;
+}
+img {
+    width: 50%;
+}
+
+thead{
+    background-color: rgb(155, 155, 155);
+    :hover{
+        background-color: blueviolet;
+        transition: background-color 2s;
+        }
+}
+tbody th:nth-child(2){
+    padding-left: 50px;
+}
+
+tbody tr:nth-child(odd){
+   background-color: rgb(189, 189, 189);
+   color: rgb(0, 0, 0);
+}
+
+tbody th:nth-child(4){ 
+    text-align: center;
+}
+
+th,td{
+    border: 1.5px solid black;
+    padding: 5px;
 }
